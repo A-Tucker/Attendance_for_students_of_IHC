@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="الرئيسية" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/ic_person_icon"
+            android:title="التخصصات" />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_person_icon"
+            android:title="التقارير" />
+
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/ic_person_icon"
+            android:title="الاخبار" />
+    </group>
+
+    <item android:title="الإعدادات">
+
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_person_icon"
+                android:title="تسجيل الدخول" />
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person_icon"
+                android:title="الملف الشخصي" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="تسجيل الخروج" />
+        </menu>
+    </item>
+    <item android:title="التطبيق">
+
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/info_icon"
+                android:title="عن التطبيق" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="مشاركة التطبيق" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="تقييم التطبيق" />
+        </menu>
+    </item>
+</menu>
+
